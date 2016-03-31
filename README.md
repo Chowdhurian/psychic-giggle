@@ -1,7 +1,9 @@
 # psychic-giggle
 > What is this repo? It is a place to track resources for learning and practice.
 
-## HTML & CSS
+## Learning Resources!
+
+### HTML & CSS
 
 > 1. [Codecademy - Web Fundamentals] (http://www.codecademy.com/tracks/web)
 > Most recent completion date: Feb 2016
@@ -44,6 +46,24 @@ Recent completion date: Mar 2016
 > 4. [Nodeschool - git-it] (http://nodeschool.io/#workshopper-list)
 > Runs in the command line. Choose to install git-it from the workshopper list.
 
+> 5. http://gitreal.codeschool.com/levels/1
+
 ## Command Line
 
 > 1. [Codecademy - Learn the Command Line] (https://www.codecademy.com/courses/learn-the-command-line)
+
+### Regular Expressions
+
+> 1. [RegexOne] (http://regexone.com/)
+> Teaches basics with exercises! Most recent: Mar 2016
+
+> 2. [RegexOne] (http://regexone.com/problem/matching_decimal_numbers)
+> Problems to solve for practice.
+
+> 3. [Regex Crossword] (https://regexcrossword.com/)
+
+## Reference Resources!
+
+### Regular Expressions
+
+> 1. [Rubular] (http://rubular.com/)
