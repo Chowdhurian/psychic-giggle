@@ -1,7 +1,10 @@
 # psychic-giggle
 > What's this repo? It's what I use to remember and share good resources for learning and practice.
+
 > What's in here? Everything in here is freely available on the internet.
+
 > How is it organized? It's categorized into technologies.
+
 > Is there an order? Each category starts with beginner resources at '1' and moves up towards more advanced resources.
 
 ## Interactive Resources!
