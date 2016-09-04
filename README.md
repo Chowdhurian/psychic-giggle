@@ -1,23 +1,24 @@
 # psychic-giggle
-> What is this repo? It is a place to track resources for learning and practice.
+> What's this repo? It's what I use to remember and share good resources for learning and practice.
+> What's in here? Everything in here is freely available on the internet.
+> How is it organized? It's categorized into technologies.
+> Is there an order? Each category starts with beginner resources at '1' and moves up towards more advanced resources.
 
-## Learning Resources!
+## Interactive Resources!
 
 ### HTML & CSS
 
 > 1. [Codecademy - Web Fundamentals] (http://www.codecademy.com/tracks/web)
-> Most recent completion date: Feb 2016
 
 > 2. [Code School - CSS X Country] (http://cssxcountry.codeschool.com/levels/1/)
-> Most recent completion date: Feb 2016
 
-> 3. Code School - Google Chrome DevTools
-> Most recent completion date: Feb 2016
+### Debugging
 
-### Javascript (JS) and jQuery
+> 1. [Code School - Discover DevTools] (http://discover-devtools.codeschool.com/)
+
+### Javascript
 
 > 1. [Codecademy - Javascript] (https://www.codecademy.com/learn/javascript)
-> Most Recent completion date: Mar 2016
 
 > 2. [Codecademy - jQuery] (https://www.codecademy.com/learn/jquery)
 Recent completion date: Mar 2016
@@ -28,7 +29,7 @@ Recent completion date: Mar 2016
 ### Ruby
 
 > 1. [Ruby Monk - Ruby Primer] (http://rubymonk.com/learning/books/1-ruby-primer)
-> Most recent completion date: 
+> Most recent completion date:
 
 > 2. [Codecademy - Ruby] (https://www.codecademy.com/learn/ruby)
 
@@ -48,19 +49,26 @@ Recent completion date: Mar 2016
 
 > 5. [Git Real] (http://gitreal.codeschool.com/levels/1)
 
-## Command Line
+### Command Line
 
 > 1. [Codecademy - Learn the Command Line] (https://www.codecademy.com/courses/learn-the-command-line)
 
 ### Regular Expressions
 
 > 1. [RegexOne] (http://regexone.com/)
-> Teaches basics with exercises! Most recent: Mar 2016
 
 > 2. [RegexOne] (http://regexone.com/problem/matching_decimal_numbers)
 > Problems to solve for practice.
 
 > 3. [Regex Crossword] (https://regexcrossword.com/)
+
+## Books!
+
+### Javascript
+
+> 1. [Eloquent Javascript] (http://eloquentjavascript.net/)
+
+> 2. [You Don't Know JS] (https://github.com/getify/You-Dont-Know-JS/blob/master/README.md)
 
 ## Reference Resources!
 
