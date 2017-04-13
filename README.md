@@ -1,4 +1,4 @@
-# psychic-giggle
+# press-start-to-begin
 
 ## What's this repo?
 
