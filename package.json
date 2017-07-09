@@ -1,0 +1,26 @@
+{
+  "name": "press-start-to-begin",
+  "version": "1.0.0",
+  "description": "## What's this repo?",
+  "main": "index.js",
+  "dependencies": {
+    "weallcontribute": "^1.0.8"
+  },
+  "devDependencies": {
+    "weallcontribute": "^1.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): 📝 updated CONTRIBUTING.md'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chowdhurian/press-start-to-begin.git"
+  },
+  "author": "chowdhurian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chowdhurian/press-start-to-begin/issues"
+  },
+  "homepage": "https://github.com/Chowdhurian/press-start-to-begin#readme"
+}
