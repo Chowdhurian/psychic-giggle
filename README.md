@@ -1,96 +1,42 @@
 # press-start-to-begin
 
-## What's this repo?
+## What is this repo?
 
-This is used for sharing good resources for learning and practice.
+This repo was used for sharing useful resources for learning and practice.
+Thankfully, there are plenty of those out there!
+
+![colours](https://raw.githubusercontent.com/chowdhurian/press-start-to-begin/master/assets/colours.gif)
+
+During a twitter chat in the [CodeNewbies community](https://twitter.com/CodeNewbies), a few people liked the idea of being inspired by the early projects of experienced programmers.
+Maybe if there was a way where more experienced programmers could encourage newer programmers by allowing them to see their early code.
+So maybe this project can help more people as a voluntarily-shared collection of the early work of more experienced programmers.
 
 ## How do things make it in here?
 
-Everything in here is freely available on the internet. They're also accessible
-and effective (disclaimer: subjective!).
+Pull requests! Do you have an early project or script you'd like to share? Are there any repositories that have been gathering dust? You've considered deleting it...you've thought about keeping it, because nostalgia.
+Now you can contribute a link to that repository or gist for new learners to be inspired by your beginnings.
 
-## How is it organized?
-
-Resources are categorized into technologies.
+Fork the repo and edit the markdown file that matches the first letter of your submitted name.
+For example, if your name was Ane, you would add your entry to the a.md file.
 
 ## Is there an order?
 
-Each category starts with introductory resources numbered '1' and moves up towards more advanced resources.
+The order is alphabetical by the first letter of the contributor's name.
+
+## How is it organized?
+
+Your entry will look like this:
+
+Name:
+
+Github profile url:
+
+Submission url:
+
+Submission description:
 
 ***
 
-## Interactive resources 🛠
+## Table of contents 🛠
 
-### HTML & CSS
-
-1. [Codecademy - Web Fundamentals] (http://www.codecademy.com/tracks/web)
-
-2. [Code School - CSS X Country] (http://cssxcountry.codeschool.com/levels/1/)
-
-### Debugging
-
-1. [Code School - Discover DevTools] (http://discover-devtools.codeschool.com/)
-
-### Javascript
-
-1. [Codecademy - Javascript] (https://www.codecademy.com/learn/javascript)
-
-2. [Codecademy - jQuery] (https://www.codecademy.com/learn/jquery)
-
-3. [Nodeschool - javascripting] (http://nodeschool.io/#workshopper-list)
-
-Runs in the command line. Choose to install javascripting from the workshopper list.
-
-### Ruby
-
-1. [Ruby Monk - Ruby Primer] (http://rubymonk.com/learning/books/1-ruby-primer)
-
-2. [Codecademy - Ruby] (https://www.codecademy.com/learn/ruby)
-
-### Git and Github basics
-
-1. [git - the simple guide] (http://rogerdudler.github.io/git-guide/)
-
-A quick and easy read for an overview of Git.
-
-2. [Code School - Try Git] (http://www.codeschool.com/courses/try-git)
-
-3. [Codecademy - Learn Git] (https://www.codecademy.com/learn/learn-git)
-
-4. [Nodeschool - git-it] (http://nodeschool.io/#workshopper-list)
-
-Runs in the command line. Choose to install git-it from the workshopper list.
-
-5. [Git Real] (http://gitreal.codeschool.com/levels/1)
-
-### Command Line
-
-1. [Codecademy - Learn the Command Line] (https://www.codecademy.com/courses/learn-the-command-line)
-
-2. [The Little Unix CLI Game] (http://una.im/little-cli-game/)
-
-### Regular Expressions
-
-1. [RegexOne] (http://regexone.com/)
-
-2. [RegexOne] (http://regexone.com/problem/matching_decimal_numbers)
-
-3. [Regex Crossword] (https://regexcrossword.com/)
-
-***
-
-## Books 📚
-
-### Javascript
-
-1. [Eloquent Javascript] (http://eloquentjavascript.net/)
-
-2. [You Don't Know JS] (https://github.com/getify/You-Dont-Know-JS/blob/master/README.md)
-
-***
-
-## Reference Resources!
-
-### Regular Expressions
-
-1. [Rubular] (http://rubular.com/)
+a. [a](https://github.com/chowdhurian/press-start-to-begin/blob/master/a.md)
