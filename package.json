@@ -1,0 +1,33 @@
+{
+  "name": "press-start-to-begin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "a todo to guide your learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowdhurian/press-start-to-begin.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Manil Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chowdhurian/press-start-to-begin/issues"
+  },
+  "homepage": "https://github.com/chowdhurian/press-start-to-begin#readme",
+  "devDependencies": {
+    "react-scripts": "^1.1.1"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
