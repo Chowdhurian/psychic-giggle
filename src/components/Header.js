@@ -1,36 +1,15 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
-      <h1>
-        <span
-          role="img"
-          aria-label="emoji of clapperboard"
-        >
-          🎬
-        </span>
-        press start to begin
-        <span
-          role="img"
-          aria-label="emoji of clapperboard"
-        >
-          🎬
-        </span>
-      </h1>
+      <h1>{props.subject}</h1>
       <h3>
         <span
           role="img"
-          aria-label="emoji of laptop"
+          aria-label={`emoji of ${props.emojiNoun}`}
         >
-          💻
-        </span>
-        computer science
-        <span
-          role="img"
-          aria-label="emoji of laptop"
-        >
-          💻
+          {props.emoji}
         </span>
       </h3>
     </header>

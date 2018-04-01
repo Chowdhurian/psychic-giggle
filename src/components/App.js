@@ -6,7 +6,7 @@ import Footer from './Footer'
 const App = () => {
   return (
     <div className="press-start-to-begin">
-      <Header />
+      <Header subject="computer science" emoji="💻" emojiNoun="laptop" />
       <TodoList />
       <Footer />
     </div>
