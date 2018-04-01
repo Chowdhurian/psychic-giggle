@@ -7,6 +7,12 @@ const ListPicker = () => {
       <form className="list-selector">
         <input type="text" required placeholder="List Name" />
         <button type="submit">start</button>
+        <span
+          role="img"
+          aria-label="emoji of clapperboard"
+        >
+          🎬
+        </span>
       </form>
     </React.Fragment>
   )
