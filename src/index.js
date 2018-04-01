@@ -1,7 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-// import ListPicker from './components/ListPicker'
-import App from './components/App'
+import Router from './components/Router'
 // import '../node_modules/todomvc-common/base.css'
 import '../node_modules/todomvc-app-css/index.css'
 // import './index.css'
@@ -9,4 +8,4 @@ import '../node_modules/todomvc-app-css/index.css'
 
 // registerServiceWorker();
 
-render(<App />, document.querySelector('#root'))
+render(<Router />, document.querySelector('#root'))

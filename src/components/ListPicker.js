@@ -5,7 +5,7 @@ const ListPicker = () => {
     <React.Fragment>
       <h2>please enter a list</h2>
       <form className="list-selector">
-        <input type="text" required placeholder="List Name" />
+        <input type="text" required placeholder="Learning List Subject" />
         <button type="submit">start</button>
         <span
           role="img"
