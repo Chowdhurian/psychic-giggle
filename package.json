@@ -25,13 +25,13 @@
   "homepage": "https://github.com/chowdhurian/press-start-to-begin#readme",
   "devDependencies": {
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.7.0",
-    "react-scripts": "^1.1.1"
+    "react-scripts": "1.1.1"
   },
   "dependencies": {
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-router-dom": "^4.2.2",
