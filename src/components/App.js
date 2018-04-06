@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import TodoList from './TodoList'
 import Footer from './Footer'
-import coreItems from '../core-cs-items'
+import coreItems from '../core-items/core-cs-items'
 
 class App extends React.Component {
   constructor() {
