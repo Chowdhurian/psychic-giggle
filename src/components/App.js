@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <div className='press-start-to-begin'>
         <Header subject='computer science' emoji='💻' emojiNoun='laptop' />
-        <TodoList />
+        <TodoList items={this.state.items} />
         <Footer addItem={this.addItem} loadCoreItems={this.loadCoreItems} />
       </div>
     )

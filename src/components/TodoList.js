@@ -1,8 +1,15 @@
 import React from 'react'
+import Item from './Item'
 
-const TodoList = () => {
+const TodoList = (props) => {
   return (
-    <div className="todo-list">todo list!</div>
+    <div>
+      {
+        Object.keys(props.items).map((key) => {
+          return <Item key={key} item={props.items[key]} />
+        })
+      }
+    </div>
   )
 }
 
