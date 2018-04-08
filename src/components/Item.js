@@ -1,4 +1,5 @@
 import React from 'react'
+import { formatLength } from '../helpers'
 
 const Item = (props) => {
   const {
@@ -26,7 +27,7 @@ const Item = (props) => {
       <div>
         <span>{load}</span>
         <span>{medium}</span>
-        <span>{length}</span>
+        <span>{formatLength(length)}</span>
       </div>
       <div>
         {Object.keys(tags).map(key => <span>{tags[key]}</span>)}

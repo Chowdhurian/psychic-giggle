@@ -1,3 +1,7 @@
+function formatLength(length) {
+  return `${Math.floor(length / 60)}:${length % 60} mins`
+}
+
 function getRandomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)]
 }
@@ -40,6 +44,7 @@ function getFunName() {
 }
 
 export {
+  formatLength,
   getFunName,
   getRandomItem,
 }
