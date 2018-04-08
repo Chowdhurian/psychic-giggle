@@ -5,12 +5,22 @@ const Item = (props) => {
   const {
     name,
     tags,
-    // status,
+    status,
     link,
     load,
     length,
     medium,
   } = props.item
+
+  const isComplete = status === 'complete'
+
+  const styleComplete = {
+    textDecoration: 'line-through',
+  }
+
+  const styleIncomplete = {
+    textDecoration: 'none',
+  }
 
   return (
     <React.Fragment>
@@ -18,10 +28,10 @@ const Item = (props) => {
         <input
           type='checkbox'
           id={name}
-          // checked={props.item.status === 'incomplete'}
+          checked={isComplete}
         />
         <label htmlFor={name}>
-          <a href={link}>{name}</a>
+          <a href={link} style={isComplete ? styleComplete : styleIncomplete}>{name}</a>
         </label>
       </form>
       <div>
