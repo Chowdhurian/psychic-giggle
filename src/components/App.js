@@ -23,13 +23,21 @@ class App extends React.Component {
     this.loadCoreItems = () => {
       this.setState({ items: coreItems })
     }
+
+    this.markItem = (key, event) => {
+      const items = { ...this.state.items }
+
+      items[key].status = event.currentTarget.value === 'complete' ? 'incomplete' : 'complete'
+
+      this.setState({ items })
+    }
   }
 
   render() {
     return (
       <div className='press-start-to-begin'>
         <Header subject='computer science' emoji='💻' emojiNoun='laptop' />
-        <TodoList items={this.state.items} />
+        <TodoList items={this.state.items} markItem={this.markItem} />
         <Footer addItem={this.addItem} loadCoreItems={this.loadCoreItems} />
       </div>
     )

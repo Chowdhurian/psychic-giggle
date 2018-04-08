@@ -22,13 +22,18 @@ const Item = (props) => {
     textDecoration: 'none',
   }
 
+  const handleChange = (event) => {
+    props.markItem(props.index, event)
+  }
+
   return (
     <React.Fragment>
       <form>
         <input
           type='checkbox'
           id={name}
-          checked={isComplete}
+          value={status}
+          onChange={handleChange}
         />
         <label htmlFor={name}>
           <a href={link} style={isComplete ? styleComplete : styleIncomplete}>{name}</a>
@@ -40,7 +45,7 @@ const Item = (props) => {
         <span>{formatLength(length)}</span>
       </div>
       <div>
-        {Object.keys(tags).map(key => <span>{tags[key]}</span>)}
+        {Object.keys(tags).map(key => <span key={key}>{tags[key]}</span>)}
       </div>
     </React.Fragment>
   )
